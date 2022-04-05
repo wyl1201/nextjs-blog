@@ -1,6 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/node': ^17.0.23
+  '@types/react': ^17.0.43
   date-fns: ^2.28.0
   gray-matter: ^4.0.3
   next: latest
@@ -8,6 +10,7 @@ specifiers:
   react-dom: 17.0.2
   remark: ^14.0.2
   remark-html: ^15.0.1
+  typescript: ^4.6.3
 
 dependencies:
   date-fns: registry.npmmirror.com/date-fns/2.28.0
@@ -17,6 +20,11 @@ dependencies:
   react-dom: registry.npmmirror.com/react-dom/17.0.2_react@17.0.2
   remark: registry.npmmirror.com/remark/14.0.2
   remark-html: registry.npmmirror.com/remark-html/15.0.1
+
+devDependencies:
+  '@types/node': registry.npmmirror.com/@types/node/17.0.23
+  '@types/react': registry.npmmirror.com/@types/react/17.0.43
+  typescript: registry.npmmirror.com/typescript/4.6.3
 
 packages:
 
@@ -194,6 +202,34 @@ packages:
     version: 0.7.31
     dev: false
 
+  registry.npmmirror.com/@types/node/17.0.23:
+    resolution: {integrity: sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-17.0.23.tgz}
+    name: '@types/node'
+    version: 17.0.23
+    dev: true
+
+  registry.npmmirror.com/@types/prop-types/15.7.4:
+    resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/prop-types/-/prop-types-15.7.4.tgz}
+    name: '@types/prop-types'
+    version: 15.7.4
+    dev: true
+
+  registry.npmmirror.com/@types/react/17.0.43:
+    resolution: {integrity: sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/react/-/react-17.0.43.tgz}
+    name: '@types/react'
+    version: 17.0.43
+    dependencies:
+      '@types/prop-types': registry.npmmirror.com/@types/prop-types/15.7.4
+      '@types/scheduler': registry.npmmirror.com/@types/scheduler/0.16.2
+      csstype: registry.npmmirror.com/csstype/3.0.11
+    dev: true
+
+  registry.npmmirror.com/@types/scheduler/0.16.2:
+    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/scheduler/-/scheduler-0.16.2.tgz}
+    name: '@types/scheduler'
+    version: 0.16.2
+    dev: true
+
   registry.npmmirror.com/@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/unist/-/unist-2.0.6.tgz}
     name: '@types/unist'
@@ -249,6 +285,12 @@ packages:
     name: comma-separated-tokens
     version: 2.0.2
     dev: false
+
+  registry.npmmirror.com/csstype/3.0.11:
+    resolution: {integrity: sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/csstype/-/csstype-3.0.11.tgz}
+    name: csstype
+    version: 3.0.11
+    dev: true
 
   registry.npmmirror.com/date-fns/2.28.0:
     resolution: {integrity: sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/date-fns/-/date-fns-2.28.0.tgz}
@@ -986,6 +1028,14 @@ packages:
     name: trough
     version: 2.1.0
     dev: false
+
+  registry.npmmirror.com/typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-4.6.3.tgz}
+    name: typescript
+    version: 4.6.3
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
 
   registry.npmmirror.com/unified/10.1.2:
     resolution: {integrity: sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/unified/-/unified-10.1.2.tgz}
